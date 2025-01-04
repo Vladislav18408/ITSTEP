@@ -1,0 +1,47 @@
+body{
+    background-color: burlywood;
+}
+
+.section-container{
+    width: 80%;
+    background-color: darkolivegreen;
+    height: 500px;
+    margin: 120px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: space-around;
+    gap: 20px;
+}
+
+.box{
+    border: 2px solid black;
+    flex: 1;
+    width: 30%;
+    height: 40%;
+    background-color: lightcyan;
+    color: black;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.bold-p{
+    font-size: 12px;
+    font-weight: bold;
+    font-style: italic;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+#box2{
+    height: 50%;
+    background-color: pink;
+}
+#box3{
+    height: 60%;
+    flex-direction: column-reverse;
+    display: flex;
+    align-content: center;
+}
+
