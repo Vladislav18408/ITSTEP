@@ -11,4 +11,5 @@ function ageCategory(age){
     }
     return category;
 }
+//eawda
 console.log(ageCategory(30));
